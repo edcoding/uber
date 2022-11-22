@@ -14,20 +14,20 @@ export default function Home() {
           <Link href="/search" passHref>
             <ActionButton>
               <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png" />
-              Ride
+              Κουρσα
             </ActionButton>
           </Link>
           <ActionButton className="text-red-600">
             <ActionButtonImage src="https://i.ibb.co/n776JLm/bike.png" />
-            Wheels (Not Available)
+            Ποδηλατα (Not Available)
           </ActionButton>
           <ActionButton className="text-red-600">
             <ActionButtonImage src="https://i.ibb.co/5RjchBg/uberschedule.png" />
-            Reserve (Not Available)
+            Κρατησεις (Not Available)
           </ActionButton>
         </ActionButtons>
         <Link href="/search" passHref>
-          <InputButton>Where to ?</InputButton>
+          <InputButton>Τοποθεσια ?</InputButton>
         </Link>
       </ActionItems>
     </Wrapper>

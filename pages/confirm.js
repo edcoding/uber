@@ -65,7 +65,7 @@ const Confirm = () => {
           pickupCoordinate={pickupCoordinate}
           dropoffCoordinate={dropoffCoordinate}
         />
-        <ConfirmButtonContainer>Confirm</ConfirmButtonContainer>
+        <ConfirmButtonContainer>Επιβεβαιωση</ConfirmButtonContainer>
       </RideContainer>
     </Wrapper>
   );

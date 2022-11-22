@@ -45,7 +45,7 @@ const Search = () => {
         }}
         passHref
       >
-        <ConfirmButtonContainer>Confirm Locations</ConfirmButtonContainer>
+        <ConfirmButtonContainer>Επιβεβαιωση</ConfirmButtonContainer>
       </Link>
     </Wrapper>
   );

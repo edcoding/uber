@@ -32,14 +32,14 @@ const RideSelector = (props) => {
 
   return (
     <Wrapper>
-      <Title>Choose a ride, or swipe up for more</Title>
+      <Title>Διαλεξε αυτοκινητο</Title>
       <CarList>
         {carList.map((car) => (
           <Car key="car">
             <CarImage src={car.imgUrl} />
             <CarDetails>
               <Service>{car.service}</Service>
-              <Time>5 min away</Time>
+              <Time>2 λεπτα</Time>
             </CarDetails>
             <CarPrice>
               {"$" + (rideDuration * car.multiplier).toFixed(2)}
