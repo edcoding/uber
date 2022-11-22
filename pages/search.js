@@ -32,8 +32,8 @@ const Search = () => {
         <PlusIcon src="https://img.icons8.com/ios/50/000000/plus-math.png" />
       </InputContainer>
       <SavedPlaces className="text-red-600">
-        <StarIcon src="https://img.icons8.com/ios-filled/50/ffffff/star--v1.png" />
-        Saved Places (Not available)
+        {/* <StarIcon src="https://img.icons8.com/ios-filled/50/ffffff/star--v1.png" />
+        Saved Places (Not available) */}
       </SavedPlaces>
       <Link
         href={{

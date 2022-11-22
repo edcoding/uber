@@ -8,7 +8,7 @@ export default function Home() {
       <Map />
       <ActionItems>
         <Header>
-          <UberLogo src="https://i.ibb.co/84stgjq/uber-technologies-new-20218114.jpg" />
+        
         </Header>
         <ActionButtons>
           <Link href="/search" passHref>
@@ -17,17 +17,14 @@ export default function Home() {
               Κουρσα
             </ActionButton>
           </Link>
+      
           <ActionButton className="text-red-600">
-            <ActionButtonImage src="https://i.ibb.co/n776JLm/bike.png" />
-            Ποδηλατα (Not Available)
-          </ActionButton>
-          <ActionButton className="text-red-600">
-            <ActionButtonImage src="https://i.ibb.co/5RjchBg/uberschedule.png" />
+            {/* <ActionButtonImage src="https://i.ibb.co/5RjchBg/uberschedule.png" /> */}
             Κρατησεις (Not Available)
           </ActionButton>
         </ActionButtons>
         <Link href="/search" passHref>
-          <InputButton>Τοποθεσια ?</InputButton>
+          <InputButton>Τοποθεσια </InputButton>
         </Link>
       </ActionItems>
     </Wrapper>

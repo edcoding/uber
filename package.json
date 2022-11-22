@@ -1,7 +1,7 @@
 {
-  "name": "uber-clone",
+  "name": "uber",
   "private": true,
-  "homepage": "https://kizou.org/projects/web/uber",
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
